@@ -1,0 +1,117 @@
+/* body style  */
+body {
+
+  margin: 0px;
+}
+
+/* button style  */
+.btn-primary {
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  border: 0;
+  padding: 15px 30px;
+  font-weight: 700;
+  color: white;
+}
+
+/* banner style  */
+header {
+  background-image: url("../images/banner/banner3.png");
+  height: 800px;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-title-container {
+  text-align: right;
+  margin-right: 120px;
+  align-items: center;
+}
+
+.banner-title {
+  color: white;
+  font-weight: bold;
+  font-style: normal;
+  font-family: "Kanit", sans-serif;
+}
+
+.banner-description {
+  color: white;
+}
+
+/* main content  */
+.main-content{
+    display: flex;
+    margin-top: 120px;
+    align-items: center;
+    gap: 50px;
+    margin-right: 120px;
+    margin-left: 120px;
+    justify-content: space-between;
+}
+.main-content-img{
+    height: 500px;
+}
+.img-content{
+    width: 50%;
+}
+
+/* my plan style  */
+.my-plans{
+    text-align: center;
+    margin-top: 80px;
+}
+.my-plans-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 120px 50px 120px;
+}
+
+/* call now  */
+.call-now-content{
+    background-image: url('../images/watch.png'), url('../images/gradient1.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 120px 120px 50px 120px;
+}
+.call-now-title{
+    margin-left: 50px;
+    align-items: center; /* Vertically center */
+    height: 100%; /* Adjust as needed */
+}
+
+/* footer style  */
+footer{
+    background-color: black;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 120px 0px 120px;
+    gap: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer-section-column{
+    width: 50%;
+}
+.footer-title, .footer-description, .footer-email, .footer-phone{
+    color: white;
+}
+.footer-email>a, .footer-phone>a{
+    text-decoration: none;
+    color: white;
+}
+.footer-icon-contain>img{
+   margin: 10px;
+}
+.footer-email{
+    display: block;
+    margin-bottom: 20px;
+    width: 30%;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
